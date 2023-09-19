@@ -19,5 +19,3 @@ jieba.load_userdict(os.path.join(DIR_NAME, 'wiki_title_traditional.txt'))
 jieba.load_userdict(os.path.join(DIR_NAME, 'attractions.dict.txt'))
 jieba.load_userdict(os.path.join(DIR_NAME, 'dcard.dict.txt'))
 jieba.load_userdict(os.path.join(DIR_NAME, 'zh_translate_en.dict'))
-
-

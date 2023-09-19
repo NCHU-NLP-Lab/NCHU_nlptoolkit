@@ -7,7 +7,7 @@ setup(
     packages=['NCHU_nlptoolkit'],
     package_dir={'NCHU_nlptoolkit':'NCHU_nlptoolkit'},
     package_data={'NCHU_nlptoolkit':['dictionary/*', 'cut/*', 'scripts/dump2es.py']},
-    version = '2.0.3',
+    version = '2.0.5',
     description = 'nlplab dictionary, stopwords module',
     author = ['davidtnfsh', 'CYJiang0718','dancheng'],
     author_email = 'nlpnchu@gmail.com',

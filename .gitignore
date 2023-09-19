@@ -1,8 +1,4 @@
 venv
-*.dic
-*.dict
-stopword.txt
-*.json
 ghostdriver.log
 phantomjs
 *.pyc
