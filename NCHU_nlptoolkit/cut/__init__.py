@@ -92,5 +92,5 @@ def cut_sentence_en(doc, flag=False):
 # dan 2023/3/23
 def load_law_dict():
     import os
-    dirpath = os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))),"dictionary\\law.txt")
+    dirpath = os.path.join(str(PurePath(Path(__file__).resolve().parent.parent,"dictionary/law.txt")))
     jieba.load_userdict(dirpath)
